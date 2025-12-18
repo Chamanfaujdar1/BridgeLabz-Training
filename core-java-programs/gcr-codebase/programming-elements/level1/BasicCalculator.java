@@ -1,5 +1,5 @@
 import java.util.*;
-public class Calculator{
+public class BasicCalculator{
 	public static void main(String[] args){
 		Scanner sc = new Scanner(System.in);
 		float number1 = sc.nextFloat();

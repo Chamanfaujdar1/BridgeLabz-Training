@@ -1,5 +1,5 @@
 import java.util.*;
-public class AgeFinder{
+public class HarryAge{
 	public static void main(String[] args){
 		Scanner sc = new Scanner(System.in);
 		int BirthYear = sc.nextInt();

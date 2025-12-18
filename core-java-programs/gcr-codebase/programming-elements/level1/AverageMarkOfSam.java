@@ -1,4 +1,4 @@
-public class AverageFinder{
+public class AverageMarkOfSam{
 	public static void main(String[] args){
 		int Maths = 94;
 		int Physics = 95;

@@ -1,4 +1,4 @@
-public class VolumeCalculator{
+public class EarthVolume{
 	public static void main(String[] args){
 		double radius = 6371; // radius of earth in km
         double pi = Math.PI;

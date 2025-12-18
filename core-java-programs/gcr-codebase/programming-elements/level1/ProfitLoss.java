@@ -1,4 +1,4 @@
-public class ProfitLossCalculator{
+public class ProfitLoss{
 	public static void main(String[] args){
 		int costPrice = 129;
 		int sellingPrice = 191;
