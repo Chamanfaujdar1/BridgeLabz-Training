@@ -1,5 +1,5 @@
 import java.util.*;
-public class Perimeter{
+public class RectanglePerimeter{
 	public static void main(String[] args){
 		Scanner sc = new Scanner(System.in);
 		double length = sc.nextDouble();

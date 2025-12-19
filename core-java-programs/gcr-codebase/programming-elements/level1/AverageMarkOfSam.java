@@ -1,9 +1,9 @@
 public class AverageMarkOfSam{
 	public static void main(String[] args){
-		int Maths = 94;
-		int Physics = 95;
-		int Chemistry = 96;
+		int maths = 94;
+		int physics = 95;
+		int chemistry = 96;
 
-		System.out.println("Sam's average mark in PCM is " + (Maths+Physics+Chemistry)/3);
+		System.out.println("Sam's average mark in PCM is " + (maths+physics+chemistry)/3);
 	}
 }

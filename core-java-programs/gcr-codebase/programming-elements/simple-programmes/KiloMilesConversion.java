@@ -1,5 +1,5 @@
 import java.util.*;
-public class Converter{
+public class KiloMilesConversion{
 	public static void main(String[] args){
 		Scanner sc = new Scanner(System.in);
 		double km = sc.nextDouble();
