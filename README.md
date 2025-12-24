@@ -6,18 +6,18 @@ program (ID: 2215000509), as recorded in the repository’s README. Tasks are gr
 by week with thematic headings, detailing the work done on each date and day.
 
 **Folder Structure**
-BridgeLabz-Training/
-├── core-java-practice/
-│ └── gcr-codebase/
-│ └── programming-elements/
-│ ├── Level-1/
-│ ├── Level-2/
-│ └── control-flows/
-│
-├── leet-code-codebase/
-│ └── core-java/
-│
-└── README.md
+BridgeLabz-Training/           
+├── core-java-practice/             
+│ └── gcr-codebase/           
+│ └── programming-elements/           
+│ ├── Level-1/                
+│ ├── Level-2/           
+│ └── control-flows/           
+│                    
+├── leet-code-codebase/             
+│ └── core-java/           
+│                  
+└── README.md                
 
 ## 1  Week 1: Getting Started with Java and it's Basics
 • **16-Dec-2025 (Tuesday):**
