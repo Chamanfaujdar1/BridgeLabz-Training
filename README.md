@@ -7,24 +7,17 @@ by week with thematic headings, detailing the work done on each date and day.
 
 **Folder Structure**
 BridgeLabz-Training/
-|
-+-- core-java-practice/(Branch & Folder Name)
-|   |
-|   +-- gcr-codebase/
-|   |   |
-|   |   +-- programming-elements/
-|   |   |
-|   |   +-- control-flow/
-|   |   |
-|   |   +-- arrays/
-|   |   |
-|   |   +-- strings/
-|   |
-|   +-- leet-code-codebase/
-|   |
-|   +-- scenario-based/
-|
-+-- README.md
+├── core-java-practice/
+│ └── gcr-codebase/
+│ └── programming-elements/
+│ ├── Level-1/
+│ ├── Level-2/
+│ └── control-flows/
+│
+├── leet-code-codebase/
+│ └── core-java/
+│
+└── README.md
 
 ## 1  Week 1: Getting Started with Java and it's Basics
 • **16-Dec-2025 (Tuesday):**
