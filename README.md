@@ -6,43 +6,27 @@ program (ID: 2215000509), as recorded in the repository’s README. Tasks are gr
 by week with thematic headings, detailing the work done on each date and day.
 
 **Folder Structure**
-BridgeLabz-Training/
-|
-+-- core-java-practice/(Branch & Folder Name)
-|   |
-|   +-- gcr-codebase/
-|   |   |
-|   |   +-- programming-elements/
-|   |   |
-|   |   +-- control-flow/
-|   |   |
-|   |   +-- arrays/
-|   |   |
-|   |   +-- string/
-|   |   |
-|   |   +-- java-methods/
-|   |   |
-|   |   +-- extras/
-|   |
-|   +-- leet-code-codebase/
-|   |
-|   +-- scenario-based/
-|
-+-- oops-practice/(Branch & Folder Name)
-|   |
-|   +-- gcr-codebase/
-|   |   |
-|   |   +-- class-and-object/
-|   |   |
-|   |   +-- constructor/
-|   |   |
-|   |   +-- keywords-instanceOf/
-|   |
-|   +-- scenario-based/
-|   |
-+-- review (Branch & Folder Name)
-|   |
-+-- README.md              
+BridgeLabz-Training/             
+├── core-java-practice/         
+│   ├── gcr-codebase/           
+│   │   ├── programming-elements/         
+│   │   ├── control-flow/       
+│   │   ├── arrays/         
+│   │   ├── string/          
+│   │   ├── java-methods/          
+│   │   └── extras/       
+│   ├── leet-code-codebase/           
+│   └── scenario-based/          
+│           
+├── oops-practice/              
+│   ├── gcr-codebase/               
+│   │   ├── class-and-object/               
+│   │   ├── constructor/                 
+│   │   └── keywords-instanceOf/               
+│   ├── scenario-based/                
+│                   
+└── README.md         
+                                              
 
 ## 1  Week 1: Getting Started with Java and it's Basics
 • **16-Dec-2025 (Tuesday):**
