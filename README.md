@@ -457,3 +457,140 @@ Solved real-world scenario-based problems to apply Java concepts in practical co
 • **Student Score Analyzer** – Analyzes student scores by calculating average, highest, lowest scores, and displaying scores above the average
 
 ## 3 January (Saturday)
+
+## OOPs Practice – Inheritance and Polymorphism ##
+
+Continued learning Object-Oriented Programming (OOPs) concepts by practicing with inheritance and polymorphism:
+
+**Key Concepts:**
+
+• Understanding inheritance – creating child classes that extend parent classes
+
+• Using extends keyword to establish inheritance relationships
+
+• Method overriding using @Override annotation
+
+• Understanding polymorphism – one interface, multiple implementations
+
+• Using super keyword to call parent class constructors and methods
+
+• Combining classes and interfaces in single files
+
+• Organizing related classes with base and derived classes
+
+**Practical Implementations:**
+
+• **Animal Inheritance Hierarchy** – Animal base class with Dog, Cat, and Bird subclasses demonstrating method overriding and polymorphism
+
+• **Employee Management** – BaseEmployee and Manager classes showing inheritance with additional attributes
+
+• **Vehicle Hierarchy** – VehicleBase and Car classes demonstrating constructor chaining with super
+
+• **Book and Author** – Book base class with Author subclass
+
+• **Device Management** – Device base class with Thermostat subclass
+
+• **Order Management System** – Multi-level inheritance with Order, ShippedOrder, and DeliveredOrder classes
+
+• **Bank Account System** – BankAccount base class with SavingsAccount subclass
+
+• **Person and Teacher** – Person base class with Teacher subclass
+
+• **Interface Implementation** – Worker interface with Chef class and PersonBase, demonstrating multiple inheritance through interfaces
+• **Vehicle with Interface** – Refuelable interface with PetrolVehicle class and VehicleMain base class
+
+## OOPs Practice – Scenario-Based Problems
+
+Solved real-world scenario-based problems to apply Java concepts in practical contexts:
+
+• **LibrarySystem** – Library management system that displays books, searches for books by keyword, and handles book checkout operations with availability tracking
+
+• **EduQuiz** – Educational quiz system that calculates student scores, displays percentage, and determines pass/fail status based on correct answers
+
+• **BankAccountManager** – Bank account management system with deposit, withdrawal, and balance checking operations, including validation for invalid amounts and insufficient balance
+
+• **MathUtility** – Utility class with static methods for mathematical operations including factorial calculation, prime number checking, GCD computation, and Fibonacci sequence generation
+
+# 📅 Week 4 – Encapsulation, Polymorphism & Advanced Scenario-Based Problems
+
+## 5 January (Monday)
+
+## OOPs Practice – Encapsulation and Polymorphism
+
+Continued learning **Object-Oriented Programming (OOPs)** concepts by practicing with interfaces, abstract classes, and polymorphism:
+
+**Key Concepts:**
+
+• Understanding interfaces – defining contracts that classes must implement
+
+• Using interface keyword to create interfaces
+
+• Understanding abstract classes – classes that cannot be instantiated directly
+
+• Using abstract keyword for abstract classes and methods
+
+• Implementing multiple interfaces in a single class
+
+• Combining abstract classes with interface implementation
+
+• Achieving polymorphism through interfaces and abstract classes
+
+• Method implementation in concrete classes extending abstract classes
+
+**Practical Implementations:**
+
+• **FullEmp** – Employee management system with Dept interface, Emp abstract class, and FullEmp concrete class demonstrating department assignment
+
+• **Elec** – Electronic product system with Tax interface, Prod abstract class, and Elec concrete class for discount and tax calculation
+
+• **Car** – Vehicle rental system with Ins interface, Veh abstract class, and Car concrete class for rental and insurance calculation
+
+• **SavAcc** – Banking system with Loan interface, Acc abstract class, and SavAcc concrete class for interest and loan calculation
+
+• **Book** – Library system with Res interface, LibItem abstract class, and Book concrete class for reservation and loan period management
+
+• **NonVeg** – Food ordering system with Disc interface, Food abstract class, and NonVeg concrete class for total and discount calculation
+
+• **InPat** – Hospital management system with Med interface, Pat abstract class, and InPat concrete class for patient billing
+
+• **Auto** – Ride booking system with Gps interface, Ride abstract class, and Auto concrete class for fare calculation and location tracking
+
+## OOPs Practice – Scenario-Based Problems
+
+Solved real-world scenario-based problems to apply Java concepts in practical contexts:
+
+• **ScoreAnalyzer** – Score analysis system that validates score ranges (0-100), calculates average, and finds highest and lowest scores from an array of student scores
+
+• **InvoiceGen** – Invoice generation system that parses invoice strings, extracts item names and amounts, and calculates the total invoice amount with proper error handling
+
+## 6 January (Tuesday)
+
+# OOPs Practice - LeetCodeProblems
+
+Solved LeetCode problems to improve algorithmic thinking and problem-solving skills:
+
+• **TwoSum** – Find two numbers in an array that add up to a target value using HashMap for efficient lookup
+
+• **ValidParentheses** – Validate if a string containing parentheses, brackets, and braces is properly closed using stack data structure
+
+• **PlusOne** – Increment a number represented as an array of digits, handling carry propagation
+
+• **ClimbingStairs** – Calculate the number of ways to climb n stairs (can take 1 or 2 steps at a time) using dynamic programming approach
+
+# OOPs Practice – Scenario-Based Problems
+
+Solved real-world scenario-based problems to apply Java concepts in practical contexts:
+
+• **PhoneBook** – Phone book management system with contact addition (phone number validation), search by phone number, and delete contact functionality, with duplicate contact prevention
+
+• **Quiz** – Quiz scoring system that compares correct and user answers, calculates score, and assigns grades (A, B, C) based on score thresholds
+
+• **Report** – Student report generation system that validates marks (0-100), calculates average marks, and assigns grades (A, B, C) based on average score
+
+• **Library** – Library management system that searches books by partial title match, handles book checkout operations with availability tracking, and prevents checkout of unavailable books
+
+# Repository
+
+**Github Repository:** https://github.com/Chamanfaujdar1/BridgeLabz-Training
+
+This repository contains all the code, programs, and solutions created during the BridgeLabz Training program. You can clone, explore, and contribute to this repository.
