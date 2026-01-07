@@ -384,7 +384,8 @@ Continued learning **Object-Oriented Programming (OOPs)** concepts by practicing
 
 • **Product** – Product management with static counter
 
-**1 January (Thursday)**
+## 1 January (Thursday) ##
+
 **OOPs Practice – Static, This, Final & Instanceof & Scenario-Based Problem**
 
 Continued learning Object-Oriented Programming (OOPs) concepts by practicing with static keywords, this reference, final modifiers, and instanceof operator:
@@ -392,24 +393,67 @@ Continued learning Object-Oriented Programming (OOPs) concepts by practicing wit
 **Key Concepts:**
 
 • Understanding static keyword for class-level variables and methods
+
 • Using this reference to access instance variables and methods
+
 • Applying final modifier to create constants and immutable fields
+
 • Using instanceof operator for type checking and safe casting
+
 • Static variable initialization and shared state management
+
 • Static method access and utility functions
+
 • Instance counting with static variables
 
 **Practical Implementations:**
 
 • **LibraryBook** – Library book management with static library name and final ISBN
+
 • **CompanyEmployee** – Employee management system with static company name and employee counter
+
 • **CartProduct** – Shopping cart product with static discount and final product ID
+
 • **UniversityStudent** – Student information system with static university name and student counter
+
 • **RegisteredVehicle** – Vehicle registration system with static registration fee
+
 • **HospitalPatient** – Patient management system with static hospital name and patient counter
 
-**OOPs Practice – Scenario-Based Problems**
+## OOPs Practice – Scenario-Based Problems ##
 
 Solved a real-world scenario-based problem focusing on string manipulation and text processing:
 
 • **SentenceFormatter** – Paragraph formatting system that capitalizes the first letter of each sentence, counts words, finds the longest word, and replaces words in a paragraph
+
+## 2 January (Friday) ##
+
+## OOPs Practice – Object-Oriented Design ##
+
+Continued learning Object-Oriented Programming (OOPs) concepts by practicing with object-oriented design principles:
+
+**Key Concepts:**
+• Understanding object modeling and design patterns
+
+• Analyzing real-world problems and designing class structures
+
+• Creating UML-like representations of object relationships
+
+• Applying OOPs principles (encapsulation, abstraction, inheritance, polymorphism) in design
+
+• Problem decomposition and class responsibility assignment
+
+• Designing scalable and maintainable object-oriented solutions
+
+**Practical Work:**
+• **Object Modeling** – Studied object modeling concepts and design patterns
+• **Sample Problem** – Analyzed and designed solutions for sample problems using OOPs principles
+
+## OOPs Practice - Scenario-Based Problems
+
+Solved real-world scenario-based problems to apply Java concepts in practical contexts:
+
+• **Temperature Analyzer** – Analyzes temperature data for a week (7 days × 24 hours), calculates daily averages, and identifies the hottest and coldest days
+• **Student Score Analyzer** – Analyzes student scores by calculating average, highest, lowest scores, and displaying scores above the average
+
+## 3 January (Saturday)
