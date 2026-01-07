@@ -28,24 +28,47 @@ BridgeLabz-Training/
 └── README.md         
                                               
 
-## 1  Week 1: Getting Started with Java and it's Basics
+## Week 1: Getting Started with Java and it's Basics
 • **16-Dec-2025 (Tuesday):**
 Installed Eclipse IDE and made github repository along with the submission of basic practice problems. Learned Basic Git Commands.
+
+### Core Java - LeetCode Practice
+Solved basic leetcode problems to improve logic and problem-solving skills:
+• EvenOrOdd
+• Factorial
+• GreatestOfTwo
+• ReverseString
 
 • **17-Dec-2025 (Wednesday):**
 Practiced Git Bash commands. Used git status to track new and modified files. Core Java – Programming Elements
 Solved basic Java programs focused on arithmetic operations and formulas:
 
-- ✅ Add Two Numbers  
-- ✅ Area of Circle  
-- ✅ Average of Three Numbers  
-- ✅ Celsius to Fahrenheit Conversion  
-- ✅ Kilometers to Miles Conversion  
-- ✅ Perimeter of Rectangle  
-- ✅ Power Calculation  
-- ✅ Simple Interest  
-- ✅ Volume of Cylinder  
-- ✅ Welcome to BridgeLabz Program
+• Add Two Numbers
+• Area of Circle
+• Average of Three Numbers
+• Basic Calculator
+• Celsius to Fahrenheit Conversion
+• Division Solve
+• Double Operations
+• Find Age
+• Find Distance
+• Hand Shake
+• Height Conversion
+• Integer Operations
+• Kilometers to Miles Conversion
+• Pen Distribution
+• Perimeter of Rectangle
+• Power Calculation
+• Price Calculator
+• Printing Welcome
+• Profit Loss Calculation
+• Sam Average
+• Simple Interest
+• Square Perimeter
+• Triangle Area
+• University Discount
+• Volume of Cylinder
+• Volume of Earth
 
 • **18-Dec-2025 (Thursday):**
 Created and organized folders for structured learning. Added programs into *Level 1, Level 2, and **Control Flow folders** Completed and submitted Level1 and Level2 problems.
