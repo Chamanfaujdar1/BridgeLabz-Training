@@ -6,6 +6,7 @@ program (ID: 2215000509), as recorded in the repository’s README. Tasks are gr
 by week with thematic headings, detailing the work done on each date and day.
 
 **Folder Structure**
+
 BridgeLabz-Training/             
 ├── core-java-practice/         
 │   ├── gcr-codebase/           
@@ -565,7 +566,7 @@ Solved real-world scenario-based problems to apply Java concepts in practical co
 
 ## 6 January (Tuesday)
 
-# OOPs Practice - LeetCodeProblems
+## OOPs Practice - LeetCodeProblems
 
 Solved LeetCode problems to improve algorithmic thinking and problem-solving skills:
 
@@ -577,7 +578,7 @@ Solved LeetCode problems to improve algorithmic thinking and problem-solving ski
 
 • **ClimbingStairs** – Calculate the number of ways to climb n stairs (can take 1 or 2 steps at a time) using dynamic programming approach
 
-# OOPs Practice – Scenario-Based Problems
+## OOPs Practice – Scenario-Based Problems
 
 Solved real-world scenario-based problems to apply Java concepts in practical contexts:
 
@@ -589,7 +590,7 @@ Solved real-world scenario-based problems to apply Java concepts in practical co
 
 • **Library** – Library management system that searches books by partial title match, handles book checkout operations with availability tracking, and prevents checkout of unavailable books
 
-# Repository
+## Repository
 
 **Github Repository:** https://github.com/Chamanfaujdar1/BridgeLabz-Training
 
