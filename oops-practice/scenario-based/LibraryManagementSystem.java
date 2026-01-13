@@ -37,7 +37,7 @@ class Student extends Member {
     }
 
     public double calculateFine(int daysLate) {
-        return daysLate * 2;   // ₹2 per day
+        return daysLate * 2;
     }
 
     public String getType() {
@@ -52,7 +52,7 @@ class Staff extends Member {
     }
 
     public double calculateFine(int daysLate) {
-        return daysLate * 1;   // ₹1 per day
+        return daysLate * 1;
     }
 
     public String getType() {
