@@ -20,12 +20,25 @@ BridgeLabz-Training/
 │   └── scenario-based/          
 │           
 ├── oops-practice/              
-│   ├── gcr-codebase/               
+│   ├── gcr-codebase/         
+|   |   ├── Inheritance/                     
 │   │   ├── class-and-object/               
-│   │   ├── constructor/                 
-│   │   └── keywords-instanceOf/               
+│   │   ├── constructor/     
+|   |   ├── encapsulation-polymorphism-interface-abstractClass/                  
+│   │   ├── keywords-instanceOf/                   
+|   |   ├── object-oriented-design-principles/     
+|   ├── leet-code-codebase/                      
 │   ├── scenario-based/                
-│                   
+│
+├── dsa-practice/ (Branch & Folder Name)
+|   ├── gcr-codebase/
+|   |   ├── HashMap/      
+|   |   ├── Stack & Queue/
+|   |   ├── linked-list/      
+|   ├── leet-code-codebase/         
+|   ├── scenario-based/          
+|
+├── review/ (Branch Name)  
 └── README.md         
                                               
 
@@ -613,13 +626,90 @@ Solved various Data Structure problems using Java, focusing on Linked Lists and 
 • **TaskScheduler** - Circular Linked List implementation for task scheduling
 
 • **Inventory** – Singly Linked List for inventory management
+
 • **LibrarySystem** – Doubly Linked List for library book management
+
 • **RoundRobin** – Circular Linked List for CPU scheduling simulation
+
 • **SocialNetwork** – Graph-like structure using Linked Lists for user connections
+
 • **TextEditor** – Doubly Linked List for undo/redo functionality
+
 • **TicketSystem** – Circular Linked List for ticket booking
 
 ## 9 January (Friday)
+
+## OOPs Practice – Scenario-Based Problems
+
+Solved real-world scenario-based problems to apply Java concepts in practical contexts:
+
+• **Hospital Management System** – Designed using interfaces and inheritance with InPatient and OutPatient classes.
+
+• **Vehicle Rental System** – Implemented polymorphism with Vehicle base class and Rentable interface for Bike, Car, and Truck.
+
+• **Flight Booking System** – Created a booking system with Flight and Booking classes to handle search and booking operations.
+
+# 📅 Week 5 – Advanced OOPs Scenarios, Exception Handling & DSA Problems
+
+## 12 January (Monday)
+
+## OOPs Practice – Scenario-Based Problems
+
+Refactored and organized 7 complex scenario-based systems into structured Java projects with proper exception handling and package organization:
+
+• **Payment System** – Implemented a payment processing system supporting Card, UPI, and Wallet methods with custom PaymentFailedException.
+
+• **Course Registration** – Created a student enrollment system with course logic and CourseLimitExceededException.
+
+• **Inventory Management** – Built an inventory tracking system with stock updates, low stock alerts, and OutOfStockException.
+
+• **Online Exam** – Developed an exam system with objective/descriptive evaluation strategies and ExamTimeExpiredException.
+
+• **Hotel Room Booking** – Implemented a room pricing system with Deluxe/Standard rooms and RoomNotAvailableException using Strategy pattern.
+
+• **Election System** – Designed a voting system with candidate tracking and DuplicateVoteException to prevent double voting.
+
+• **Wallet Transfer** – Created a fund transfer system between wallets with InsufficientBalanceException.
+
+## DSA Practice – Scenario-Based Problems
+
+Solved real-world scenario-based problems applying Data Structures and Algorithms:
+
+• **Traffic Manager** – Implemented a traffic signal simulation using a circular linked list to manage car queues efficiently.
+
+• **Smart Shelf** – Developed a book organization system that sorts books alphabetically using Insertion Sort.
+
+• **Ticket Sorter** – Created a ticket pricing system that sorts ticket prices using Quick Sort for optimized display.
+
+## 13 January (Tuesday)
+
+## DSA Practice - Stacks & Queues
+
+Solved various algorithmic problems using Stack and Queue data structures:
+
+• **StockSpan** – Calculated the span of stock prices for all days using a stack-based approach.
+
+• **SortStack** – Implemented a mechanism to sort elements in a stack using recursion or an auxiliary stack.
+
+• **SlidingWindowMax** – Found the maximum element in every sliding window of size k using an optimized deque.
+
+• **CircularTour** – Determined the starting petrol pump to complete a circular tour of all pumps.
+
+• **QueueUsingStacks** – Implemented a standard queue functionality using two stacks.
+
+## DSA Practice – HashMaps
+
+Implemented and applied HashMaps to solve common algorithmic challenges:
+
+• **MyHashMap** – Developed a custom HashMap implementation from scratch with collision handling.
+
+• **ZeroSumSubarray** – Implemented logic to detect if any subarray within an array has a sum equal to zero.
+
+• **LongestConsecutive** – Found the length of the longest subsequence of consecutive integers in an array.
+
+• **PairSum** – Identified pairs of elements in an array that sum up to a specific target value.
+
+• **TwoSum** – Provided an efficient solution to return indices of two numbers that add up to a target.
 
 ## Repository
 
