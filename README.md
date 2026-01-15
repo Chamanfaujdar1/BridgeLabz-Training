@@ -590,6 +590,37 @@ Solved real-world scenario-based problems to apply Java concepts in practical co
 
 • **Library** – Library management system that searches books by partial title match, handles book checkout operations with availability tracking, and prevents checkout of unavailable books
 
+## 7 January (Wednesday)
+
+## OOPs Practice - Scenario Based Problems
+
+Solved real-world scenario-based problems to apply Java concepts in practical contexts:
+
+• **CabBookingSystem** -  Implemented a cab booking application that handles ride booking, driver assignment, and fare calculation (supporting normal and peak rates) using exception handling and polymorphism.
+
+• **BankService** - Designed a banking system using interfaces to define core operations (deposit, withdraw), implemented by varying account types (Savings, Current) to enforce specific transaction rules and balance management.
+
+## 8 January (Thursday)
+
+## DSA Practice -  Linked List & Data Structures
+
+Solved various Data Structure problems using Java, focusing on Linked Lists and other structures:
+
+• **StudentList** - Singly Linked List implementation to manage student records (add, delete, search, update)
+
+• **MovieList** - Doubly Linked List implementation for movie ratings (forward/reverse display)
+
+• **TaskScheduler** - Circular Linked List implementation for task scheduling
+
+• **Inventory** – Singly Linked List for inventory management
+• **LibrarySystem** – Doubly Linked List for library book management
+• **RoundRobin** – Circular Linked List for CPU scheduling simulation
+• **SocialNetwork** – Graph-like structure using Linked Lists for user connections
+• **TextEditor** – Doubly Linked List for undo/redo functionality
+• **TicketSystem** – Circular Linked List for ticket booking
+
+## 9 January (Friday)
+
 ## Repository
 
 **Github Repository:** https://github.com/Chamanfaujdar1/BridgeLabz-Training
