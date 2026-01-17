@@ -711,6 +711,20 @@ Implemented and applied HashMaps to solve common algorithmic challenges:
 
 • **TwoSum** – Provided an efficient solution to return indices of two numbers that add up to a target.
 
+## 16 January (Friday)
+
+### DSA Practice – Sorting Algorithms
+
+Implemented various sorting algorithms to understand different sorting techniques and their complexities:
+
+• *BubbleSortMarks* – Implemented Bubble Sort to sort an array of marks.
+• *InsertionSortIDs* – Implemented Insertion Sort to sort a list of IDs.
+• *MergeSortPrices* – Implemented Merge Sort to sort product prices efficiently using divide and conquer.
+• *QuickSortPrices* – Implemented Quick Sort to sort prices using partitioning.
+• *SelectionSortScores* – Implemented Selection Sort to sort scores by repeatedly finding the minimum element.
+• *HeapSortSalary* – Implemented Heap Sort to sort employee salaries using a binary heap.
+• *CountingSortAges* – Implemented Counting Sort to sort ages efficiently for a specific range.
+
 ## Repository
 
 **Github Repository:** https://github.com/Chamanfaujdar1/BridgeLabz-Training
