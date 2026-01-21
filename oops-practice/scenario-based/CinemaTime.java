@@ -68,7 +68,7 @@ class CinemaTimeManager {
     }
 
     public void generatePrintableReport() {
-        System.out.println("\n📝 Printable Movie Report:");
+        System.out.println("\n Printable Movie Report:");
 
         String[] titlesArray = movieTitles.toArray(new String[0]);
         String[] timesArray = showTimes.toArray(new String[0]);
