@@ -92,6 +92,10 @@ BridgeLabz-Training/
 |   |
 |   ├── leet-code-codebase
 |
+├── collections-practice
+|   |
+|   └── gcr-codebase
+|   |   ├── JavaGenerics
 ├── review
 |   ├── ElementsGreaterThanTarget.java
 |
