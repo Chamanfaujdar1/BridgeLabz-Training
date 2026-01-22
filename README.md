@@ -266,3 +266,16 @@ BridgeLabz-Training/
 - Solved problems related StringBuilder, StringBuffer, FileReader, InputStreamReader,Linear Search and Binary Search
 
 ## 📅 Week 6 Progress
+**Big O Notation, Banking & Employee Systems**
+
+### 19-Jan-2026 (Monday)
+- **DSA**: Created RuntimeAnalysisAndBigONotation directory. Implemented Runtime Analysis and Big O Notation examples (Sorting, Searching, String Ops).
+- **DSA Scenarios**: Implemented ExamProctor (Stack & HashMap) and ParcelTracker (Linked List) for tracking systems.
+- **OOPS Scenarios**: Implemented AddressBook, BankAccountSystem (Interfaces), and EmployeeSystem (Polymorphism).
+
+### 20-Jan-2026 (Tuesday):
+- **DSA Scenarios**: Solved CinemaTime (Exception Handling & Time Validation).
+- **Collections**: Created collection-practice branch. Implemented Java Generics problems including WarehouseTest (Generic Storage), MarketplaceTest (Bounded Type Parameters), CourseTest (Wildcards), MealTest (Interfaces with Generics), and ResumeTest (Screening Pipeline).
+
+### 21-Jan-2026 (Wednesday):
+- **Collections**: Renamed branch and folder to collections-practice. Implemented various Collection Framework problems in collections directory
