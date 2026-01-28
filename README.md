@@ -283,4 +283,17 @@ BridgeLabz-Training/
 - **Collections**: Created collection-practice branch. Implemented Java Generics problems including WarehouseTest (Generic Storage), MarketplaceTest (Bounded Type Parameters), CourseTest (Wildcards), MealTest (Interfaces with Generics), and ResumeTest (Screening Pipeline).
 
 ### 21-Jan-2026 (Wednesday):
-- **Collections**: Renamed branch and folder to collections-practice. Implemented various Collection Framework problems in collections directory
+- **Collections**: Renamed branch and folder to collections-practice. Implemented various Collection Framework problems in collections directory:
+- **List & Set**: ReverseList, RotateList, NthFromEnd, SetOperations, RemoveDuplicates
+- **Map**: Frequency, GroupDept, InvertMap, MergeMap, WordFreq.
+- **Stack/Queue**: ReverseQueue, StackQ, CircularBuffer, Triage.
+- **Systems**: InsurancePolicyManagement (Policy Manager & Performance Test),BankingSystem,ShoppingCart,VotingSystem.
+
+## 📅 Week 6 Java Streams
+**Java Stream API, File Handling & Exception Handling**
+
+### 26-Jan-2026 (Monday):
+- **Collections**: Created JavaStreams directory in collections-practice. Implemented various Stream API examples (File Copy, Serialization, Pipe, etc.) in gcr-codebase/JavaStreams.
+
+### 27-Jan-2026 (Tuesday):
+- **Exception Handling**: Created ExceptionHandling directory in collections-practice. Implemented various exception handling examples including try-catch, finally, throw, throws, Custom Exceptions (InvalidAgeException, InsufficientBalanceException), and Nested Try-Catch.
