@@ -95,7 +95,12 @@ BridgeLabz-Training/
 ├── collections-practice
 |   |
 |   └── gcr-codebase
+|   |   ├── Exceptions
 |   |   ├── JavaGenerics
+|   |   ├── JavaStreams
+|   |   ├── collections
+|   |
+|   ├── scenario-based
 |
 ├── review
 |   ├── ElementsGreaterThanTarget.java
@@ -289,7 +294,7 @@ BridgeLabz-Training/
 - **Stack/Queue**: ReverseQueue, StackQ, CircularBuffer, Triage.
 - **Systems**: InsurancePolicyManagement (Policy Manager & Performance Test),BankingSystem,ShoppingCart,VotingSystem.
 
-## 📅 Week 6 Java Streams
+## 📅 Week 7 Java Streams
 **Java Stream API, File Handling & Exception Handling**
 
 ### 26-Jan-2026 (Monday):
