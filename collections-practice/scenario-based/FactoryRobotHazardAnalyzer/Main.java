@@ -12,7 +12,7 @@ public class Main {
             System.out.println("Enter Worker Density (1 - 20):");
             int workerDensity = sc.nextInt();
 
-            sc.nextLine(); // consume newline
+            sc.nextLine();
 
             System.out.println("Enter Machinery State (Worn/Faulty/Critical):");
             String machineryState = sc.nextLine();

@@ -1,17 +1,15 @@
 class RobotHazardAuditor {
 
     public double calculateHazardRisk(double armPrecision,
-                                      int workerDensity,
-                                      String machineryState)
+            int workerDensity,
+            String machineryState)
             throws RobotSafetyException {
 
-        // Validate arm precision
         if (armPrecision < 0.0 || armPrecision > 1.0) {
             throw new RobotSafetyException(
                 "Error: Arm precision must be 0.0-1.0");
         }
 
-        // Validate worker density
         if (workerDensity < 1 || workerDensity > 20) {
             throw new RobotSafetyException(
                 "Error: Worker density must be 1-20");
@@ -19,7 +17,6 @@ class RobotHazardAuditor {
 
         double machineRiskFactor;
 
-        // Validate machinery state (case-sensitive)
         switch (machineryState) {
             case "Worn":
                 machineRiskFactor = 1.3;
@@ -35,7 +32,6 @@ class RobotHazardAuditor {
                     "Error: Unsupported machinery state");
         }
 
-        // Hazard risk calculation
         return ((1.0 - armPrecision) * 15.0)
                 + (workerDensity * machineRiskFactor);
     }
