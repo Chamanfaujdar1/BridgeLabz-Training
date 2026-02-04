@@ -25,6 +25,7 @@ BridgeLabz-Training/
 |   | 
 |   └── scenario-based/
 |       ├── BusDistanceRouteTracker.java
+|       ├── FlipKeyLogicalProblem
 |       ├── CoffeeCounter.java
 |       ├── BMIFitnessTracker.java     
 |       ├── DigitalWatchSimulation.java
@@ -95,15 +96,35 @@ BridgeLabz-Training/
 ├── collections-practice
 |   |
 |   └── gcr-codebase
+|   |   ├── Annotations
 |   |   ├── Exceptions
+|   |   ├── JUnit
 |   |   ├── JavaGenerics
 |   |   ├── JavaStreams
+|   |   ├── Reflection
 |   |   ├── collections
+|   |   ├── regex
 |   |
 |   ├── scenario-based
+|       ├── FactoryRobotHazardAnalyzer
+|       ├── FutureLogistics
+|       ├── LexicalTwist
+|       ├── StreamBuzz
+|       ├── EduResults.java
+|       ├── FileBackupScheduler.java
+|       ├── RestaurantTableReservationSystem.java
+|       ├── SmartCheckout.java
+|
+├── IOprogramming-practice
+|   |
+|   └── gcr-codebase
+|   |   ├── CSVdatahandling
+|   |   ├── JSONdata
 |
 ├── review
 |   ├── ElementsGreaterThanTarget.java
+|   ├── MultipleInheritance.java
+|   ├── StackImplementation.java
 |
 └── README.md
 ```
@@ -302,3 +323,24 @@ BridgeLabz-Training/
 
 ### 27-Jan-2026 (Tuesday):
 - **Exception Handling**: Created ExceptionHandling directory in collections-practice. Implemented various exception handling examples including try-catch, finally, throw, throws, Custom Exceptions (InvalidAgeException, InsufficientBalanceException), and Nested Try-Catch.
+
+### 28-Jan-2026 (Wednesday):
+- **Core Java Scenarios**: Implemented LexicalTwist (String Vowels/Consonants Logic) and CleanseAndInvert (String Manipulation) in scenario-based folder.
+- **Collections Scenarios**: Implemented Restaurant (HashMap & Exception Handling) and BackupScheduler (Priority Queue) in scenario-based folder.
+
+### 30-Jan-2026 (Friday):
+- **Regex**: Created Regex directory in collections-practice. Implemented RegexPractice covering username validation, email extraction, censoring, and other regex patterns.
+- **JUnit**: Created JUnit directory in collections-practice with Maven structure. Implemented and tested various classes: Calculator, StringUtils, ListManager, DatabaseConnection, FileProcessor, EvenTest, and ExceptionTest.
+
+### 01-Feb-2026(Sunday):
+- **OOPS Scenarios**: Implemented FutureLogistics scenario-based problem involving GoodsTransport, BrickTransport, and TimberTransport with logic for vehicle selection and charge calculation.
+
+### 02-Feb-2026(Monday):
+- **Collections Scenarios**: Implemented StreamBuzz scenario-based problem (Creator Stats).
+- **Reflection**: Implemented 12 Reflection API examples in collections-practice covering methods, fields, dynamic proxy, and dependency injection.
+- **Annotations**: Implemented 12 Annotation examples including @Override, @Deprecated, @SuppressWarnings, and custom annotations like @Loggable and @Priority.
+- **IO Programming**: Created IOprogramming-practice branch. Implemented CSV Data Handling (12 examples) and JSON Data Handling (9 examples) involving reading, writing, filtering, and masking data.
+
+### 03-Feb-2026(Tuesday):
+- **DSA Scenarios**: Implemented RobotAuditSystem (Custom Exceptions) and FlightManagementSystem (Exception Handling) in scenario-based folder.
+- **Java 8 Features**: Created java8-feature-pratice branch. Implemented 10 Stream API examples including TopMovies, DoctorAvailability, InsuranceClaims, etc. in gcr-codebase/StreamAPI.
