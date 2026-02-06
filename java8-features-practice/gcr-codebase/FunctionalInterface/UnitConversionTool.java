@@ -10,12 +10,13 @@ public class UnitConversionTool {
     }
 
     public static void main(String[] args){
-        double distanceKm = 120.0
+        double distanceKm = 120.0;
         double weightKg = 75.0;
         double distanceMiles = UnitConverter.kmToMiles(distanceKm);
         double weightPounds = UnitConverter.kgToPounds(weightKg);
 
         System.out.println(distanceKm + " kilometers is equal to " + distanceMiles + " miles.");
-        System.out.println(weightKg + " kilograms is equal to " + weightPounds + "
+        System.out.println(weightKg + " kilograms is equal to " + weightPounds + " pounds.");
+
     }
 }
