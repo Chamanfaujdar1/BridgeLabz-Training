@@ -1,3 +1,6 @@
+import java.util.List;
+import java.util.ArrayList;
+
 public class VesselUtil {
     private List<Vessel> vesselList = new ArrayList<>();
 
@@ -38,7 +41,7 @@ public class VesselUtil {
                 highPerformanceVessels.add(vessel);
             }
         }
-        
+
         return highPerformanceVessels;
     }
 }
