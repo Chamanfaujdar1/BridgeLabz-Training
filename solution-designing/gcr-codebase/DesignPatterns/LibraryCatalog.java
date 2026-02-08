@@ -13,7 +13,7 @@ public class LibraryCatalog {
 
     public void addBook(Book book){
         books.add(book);
-        notofyObservers(book.getTitle());
+        notifyObservers(book.getTitle());
     }
 
     public void addObserver(Observer observer){
