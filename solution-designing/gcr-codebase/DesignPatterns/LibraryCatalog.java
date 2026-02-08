@@ -1,6 +1,11 @@
+import java.util.ArrayList;
+import java.util.List;
+import java.util.*;
+
 public class LibraryCatalog {
     private static LibraryCatalog instance;
     private List<Book> books = new ArrayList<>();
+    private List<Observer> observers = new ArrayList<>();
 
     private LibraryCatalog(){}
 
