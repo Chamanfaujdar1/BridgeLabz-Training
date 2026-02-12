@@ -121,10 +121,30 @@ BridgeLabz-Training/
 |   |   ├── CSVdatahandling
 |   |   ├── JSONdata
 |
+├── java8-features-practice
+|   |
+|   └── gcr-codebase
+|   |   ├── Collectors
+|   |   ├── FunctionalInterface
+|   |   ├── LambdaExpressions
+|   |   ├── StreamAPI
+|
+├── solution-designing
+|   |
+|   └── gcr-codebase
+|   |   ├── DesignPatterns
+|
+├── multi-threading
+|   |
+|   └── gcr-codebase
+|   |   ├── MultiThreading
+|
+├── jdbc-and-dbms-practice
+|   |
+|   └── gcr-codebase
+|   |   ├── HealthClinicApp
+|
 ├── review
-|   ├── ElementsGreaterThanTarget.java
-|   ├── MultipleInheritance.java
-|   ├── StackImplementation.java
 |
 └── README.md
 ```
@@ -344,3 +364,31 @@ BridgeLabz-Training/
 ### 03-Feb-2026(Tuesday):
 - **DSA Scenarios**: Implemented RobotAuditSystem (Custom Exceptions) and FlightManagementSystem (Exception Handling) in scenario-based folder.
 - **Java 8 Features**: Created java8-feature-pratice branch. Implemented 10 Stream API examples including TopMovies, DoctorAvailability, InsuranceClaims, etc. in gcr-codebase/StreamAPI.
+
+### 04-Feb-2026(Wednesday):
+- **Java 8 Features**:  Implemented Lambda Expressions examples including SmartLight, ShopSort, AlertFilter, etc. in LambdaExpressions directory. Also implemented 13 Functional Interface examples covering custom interfaces, static/default methods, and marker interfaces in FunctionalInterface directory.
+
+### 05-Feb-2026(Thursday):
+- **Java 8 Features**: Implemented Collectors examples including StudentGroup (Grouping & Mapping), WordFreq (Counting), OrderSum (Summing), AvgSalary (Averaging), and BookStats (Summarizing) in gcr-codebase/Collectors.
+- **Collections Scenarios**: Implemented FoodDeliverySystem (Queue), ClassroomAttendance (Set), LeaveManagement (Map), and MusicPlaylist (LinkedList & Stack) in scenario-based folder.
+
+### 07-Feb-2026(Saturday):
+- **Collections Scenarios**: Implemented VesselNavigation scenario-based problem involving Vessel, VesselUtil, and UserInterface for tracking vessel performance.
+
+### 08-Feb-2026 (Sunday):
+- **Solution Designing**: Implemented LibraryManagementSystem involving LibraryCatalog, UserFactory, and Observer pattern for managing books and users.
+- **Multithreading**: Implemented various concurrent systems including:
+  **BankSystem**: Concurrent transaction handling.
+  **Restaurant**:  Producer-Consumer problem implementation.
+  **DownloadManager**: Multi-threaded file downloading.
+  **PrintShop**: Job scheduling simulation.
+  **ThreadStateMonitor**:  Thread lifecycle monitoring.
+- **Collections Scenarios**: Implemented AuctionSystem (Custom Exceptions) and EnergyMonitoringSystem (Monitoring & Alerts) in scenario-based folder.
+- **Code Quality**: Applied SonarQube analysis and improvements to AddressBook (OOPs Practice).
+
+## 📅 Week 9 Progress
+### Database Connectivity & Real-world Scenarios
+
+### 09-Feb-2026 (Monday):
+- **JDBC & DBMS**: Created jdbc-dbms-practice branch. Refactored HealthClinicApp project structure. Implemented "View All Patients" feature.
+- **Collections Scenarios**: Implemented JobPortal (Custom Exceptions), EventAnalyzer (Streams & Maps), and BankAccount (JUnit Testing) in scenario-based folder.
