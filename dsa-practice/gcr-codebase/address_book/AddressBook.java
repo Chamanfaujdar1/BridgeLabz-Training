@@ -4,7 +4,11 @@ import java.util.*;
 
 public class AddressBook {
 	private ArrayList<Contact> contactList = new ArrayList<>();
+	public ArrayList<Contact> getContactList(){
+		return contactList;
+	}
 	
+// UC6 & UC7 - Add contact with duplicate check
 	public void addContact(Scanner sc) {
 		System.out.println("Add new Contact");
 		
@@ -13,6 +17,13 @@ public class AddressBook {
 		
 		System.out.print("Enter Last Name: ");
 		String lastName = sc.nextLine();
+		
+		// UC7 - Check for duplicate using equals method
+		Contact tempContact = new Contact(firstName, lastName, "", "", "", "", "", "");
+		if (contactList.contains(tempContact)) {
+			System.out.println("Duplicate Entry! Contact with name '" + firstName + " " + lastName + "' already exists.");
+			return;
+		}
 		
 		System.out.print("Enter address: ");
 		String address = sc.nextLine();
@@ -36,6 +47,17 @@ public class AddressBook {
 		contactList.add(contact);
 		
 		System.out.println("Contacts added successfully");
+	}
+
+	// UC11 - Sort contacts alphabetically by name
+	public void sortContactsByName(){
+		if(contactList.isEmpty()){
+			System.out.println("No contacts available to sort.");
+			return;
+		}
+		Collections.sort(contactList);
+		System.out.println("\nContacts sorted alphabetically by name:");
+		displayDetails();
 	}
 	
 	public void addMultipleContacts(Scanner sc) {
@@ -133,4 +155,49 @@ public class AddressBook {
 			System.out.println(c);
 		}
 	}
+
+	public ArrayList<Contact> getContacts(){
+		return contactList;
+	}
+
+	// UC12 - Sort by City
+	public void sortByCity(){
+		if(contactList.isEmpty()){
+			System.out.println("No contacts available to sort.");
+			return;
+		}
+		Collections.sort(contactList, Comparator.comparing(Contact::getCity, String.CASE_INSENSITIVE_ORDER));
+    	System.out.println("\nContacts sorted by City:");
+    	displayDetails();
+	}
+
+	// UC12 - Sort by State
+	public void sortByState() {
+
+    	if (contactList.isEmpty()) {
+        	System.out.println("No contacts available to sort.");
+        	return;
+    	}
+
+    	Collections.sort(contactList, Comparator.comparing(Contact::getState, String.CASE_INSENSITIVE_ORDER));
+
+    	System.out.println("\nContacts sorted by State:");
+    	displayDetails();
+	}
+
+	// UC12 - Sort by Zip
+	public void sortByZip() {
+
+    	if (contactList.isEmpty()) {
+        	System.out.println("No contacts available to sort.");
+        	return;
+    	}
+
+    	Collections.sort(contactList, Comparator.comparing(Contact::getZip));
+
+    	System.out.println("\nContacts sorted by Zip:");
+    	displayDetails();
+	}
+
+
 }

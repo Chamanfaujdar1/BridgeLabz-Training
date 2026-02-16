@@ -34,7 +34,7 @@ public class AddressBookSystem {
         AddressBook book = addressBookMap.get(name.toLowerCase());
 
         if (book == null) {
-            System.out.println("❌ Address Book not found with name: " + name);
+            System.out.println("Address Book not found with name: " + name);
         }
 
         return book;

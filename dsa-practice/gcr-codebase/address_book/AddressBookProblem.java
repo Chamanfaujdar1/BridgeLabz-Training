@@ -16,7 +16,13 @@ public class AddressBookProblem {
 			System.out.println("3. Edit Contacts");
 			System.out.println("4. Delete contacts");
 			System.out.println("5. Display Contacts");
-			System.out.println("6. Exit");
+			System.out.println("6. Sort Contacts By Name");
+			System.out.println("7. Sort By City");
+			System.out.println("8. Sort By State");
+            System.out.println("9. Sort By Zip");
+			System.out.println("10. Save Contacts to File");
+			System.out.println("11. Read Contacts from File");
+			System.out.println("12. Exit");
 			
 			System.out.print("Enter your choice: ");
 			
@@ -43,8 +49,32 @@ public class AddressBookProblem {
 			case 5:
 				addressBook.displayDetails();
 				break;
-				
+
 			case 6:
+				addressBook.sortContactsByName();
+				break;
+
+			case 7:
+				addressBook.sortByCity();
+				break;
+
+			case 8:
+				addressBook.sortByState();
+				break;
+
+			case 9:
+				addressBook.sortByZip();
+				break;
+
+			case 10:
+				FileIOService.writeToFile(addressBook.getContactList());
+				break;
+
+			case 11:
+				FileIOService.readFromFile();
+				break;
+				
+			case 12:
 				System.out.println("Exiting Booking Address");
 				sc.close();
 				return;
