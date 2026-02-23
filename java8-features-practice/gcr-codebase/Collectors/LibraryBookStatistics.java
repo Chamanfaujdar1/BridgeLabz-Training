@@ -36,7 +36,7 @@ public class LibraryBookStatistics {
                 .collect(Collectors.groupingBy(
                 Book::getGenre,
                 Collectors.summarizingInt(Book::getPages)
-       ));
+        ));
 
         statsByGenre.forEach((genre, stats) -> {
             System.out.println("Genre: " + genre);
