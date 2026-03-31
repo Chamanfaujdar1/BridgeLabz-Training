@@ -24,21 +24,6 @@ BridgeLabz-Training/
 |   ├── leet-code-codebase/
 |   | 
 |   └── scenario-based/
-|       ├── BusDistanceRouteTracker.java
-|       ├── FlipKeyLogicalProblem
-|       ├── CoffeeCounter.java
-|       ├── BMIFitnessTracker.java     
-|       ├── DigitalWatchSimulation.java
-|       ├── ElectionBoothManager.java
-|       ├── EmployeeWageComputation.java
-|       ├── FestivalLuckyDraw.java
-|       ├── LineComparisonProblem.java
-|       ├── MayaBMITracker.java
-|       ├── MetroSmartCard.java
-|       ├── MovieTicketBookingApp.java
-|       ├── LibraryReminderApp.java
-|       ├── SandeepFitnessChallengeTracker.java
-|       └── SnakesAndLadders.java
 |
 ├── oops-practice
 |   |
@@ -53,32 +38,6 @@ BridgeLabz-Training/
 |   ├── leet-code-codebase
 |   |
 |   └── scenario-based
-|       ├── digital_wallet_system
-|       ├── ecommerce_management_system
-|       ├── flight_booking_system
-|       ├── hospital_management_system
-|       ├── hotel_reservation_system
-|       ├── inventory_management_system
-|       ├── online_examinantion_system
-|       ├── online_voting_system
-|       ├── student_course_registration_system
-|       ├── vehicle_rental
-|       ├── BankAccountManager.java
-|       ├── CabBooking.java
-|       ├── CafeteriaMenuApp.java
-|       ├── EduQuiz.java
-|       ├── GeneratorForFreelancers.java
-|       ├── LibraryManagementSystem.java
-|       ├── MathematicalOperation.java
-|       ├── OnlineBankingSystem.java
-|       ├── OnlineQuizPlatform.java
-|       ├── PhoneApp.java
-|       ├── SentenceFormatter.java
-|       ├── SentenceWordCount.java
-|       ├── StudentReportGenerator.java
-|       ├── StudentScore.java
-|       ├── StudentScoreAnalyzer.java
-|       └── TemperatureAnalyzer.java
 |
 ├── dsa-practice
 |   |
@@ -106,14 +65,6 @@ BridgeLabz-Training/
 |   |   ├── regex
 |   |
 |   ├── scenario-based
-|       ├── FactoryRobotHazardAnalyzer
-|       ├── FutureLogistics
-|       ├── LexicalTwist
-|       ├── StreamBuzz
-|       ├── EduResults.java
-|       ├── FileBackupScheduler.java
-|       ├── RestaurantTableReservationSystem.java
-|       ├── SmartCheckout.java
 |
 ├── IOprogramming-practice
 |   |
@@ -128,6 +79,8 @@ BridgeLabz-Training/
 |   |   ├── FunctionalInterface
 |   |   ├── LambdaExpressions
 |   |   ├── StreamAPI
+|   |
+|   ├── scenario-based
 |
 ├── solution-designing
 |   |
@@ -143,6 +96,10 @@ BridgeLabz-Training/
 |   |
 |   └── gcr-codebase
 |   |   ├── HealthClinicApp
+|
+├── m1-practice-problem
+|   |
+|   └── scenario-based
 |
 ├── review
 |
