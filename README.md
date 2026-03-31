@@ -392,3 +392,29 @@ BridgeLabz-Training/
 ### 09-Feb-2026 (Monday):
 - **JDBC & DBMS**: Created jdbc-dbms-practice branch. Refactored HealthClinicApp project structure. Implemented "View All Patients" feature.
 - **Collections Scenarios**: Implemented JobPortal (Custom Exceptions), EventAnalyzer (Streams & Maps), and BankAccount (JUnit Testing) in scenario-based folder.
+
+## 📅 Week 10 : Advanced Scenarios & System Design
+### Employee Wage & Address Book Enhancements
+
+### 16-Feb-2026 (Sunday):
+- **Scenario-Based**: Worked on Employee Wage computation problem involving procedural and object-oriented approaches.
+### 17-Feb-2026 (Monday):
+- **Address Book System**: Implemented advanced features (UC11-UC18) for the AddressBook system in oops-practice/scenario-based:
+- **Sorting**: Added functionality to sort contacts by City, State, and Zip code.
+- **File IO**: Implemented manual Read/Write operations for Text (.txt), CSV (.csv), and JSON (.json) files without external libraries.
+- **Multi-threading**: Refactored all IO operations to execute in separate threads for non-blocking UI.
+
+## 📅 Week 11: M1 Question Practice — Scenario-Based Problem Solving
+
+### Validation, OOP Design, Regex & Data Structure Scenarios
+
+### 17-Mar-2026 (Monday):
+- **DSA Scenario-Based**: Created m1 question practice folder inside dsa-practice/scenario-based/. Solved 16 scenario-based questions across 8 sets (Set1–Set4 + ExtraSet1–ExtraSet4):
+- **Set 1**: - GlobalShipmentValidator — Validates shipment records (code, date, mode, weight, status) using custom rules.
+- VersionControlledStorage — File versioning system with UPLOAD / FETCH / LATEST / TOTAL_STORAGE operations.
+- **Set 2**: - KeyGeneration — String validation + ASCII-based key transformation (lowercase → remove even-ASCII → reverse → uppercase even-index).
+- QuizPerformanceRanking — Quiz ranking system with department-wise and quiz-wise top scorer queries.
+- **Set 3**: - CorporateEmailAccessControl — Regex-based email format validation with department and domain rules.
+- FestivalManagementSystem — OOP festival management supporting MUSIC, FOOD, and ART festival types.
+- **Set 4**: - DynamicTemplateProcessor — Template placeholder processor supporting DATE, UPPER, LOWER, and REPEAT tags.
+- SupermarketInventory — OOP inventory system for Electronics and Clothing products with total value calculation.
